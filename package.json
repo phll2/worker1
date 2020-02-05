@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "worker1",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Phil Stott <phil.stott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "node-fetch": "^2.6.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "standard": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+    }
+  }
+}
